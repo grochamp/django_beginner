@@ -5,6 +5,15 @@
         <title>Rotten Coffee</title>
         <link href="./practice.css" rel="stylesheet" type ="text/css">
 
+        <script type ="text/javascript" src ="./add_two_numbers.js"></script>
+        <!-- what_time_is_it쓰려면 이렇게 head에 선언해야함 -->
+        <script type ="text/javascript" src ="./what_time_is_it.js"></script> 
+            
+            
+
+            
+            
+        </script>
     </head>
     <body>
         <nav>
@@ -17,9 +26,22 @@
         <h1>first size headline</h1>
         <h2>second size headline</h2>
         <h3>third size headline</h3>
+
+        <button onclick="whatTimeIsIt()">현재시각</button>
+        <hr/>
+
+
         <p>방가방가</p>
         <a href="https://www.google.co.kr/?hl=ko">Go To Google</a>
+        <hr/>
+        <label for="inputA">a</label>
+        <input id="inputA" value=1 onkeyup="doSomething()">
+        <label for="inputB">b</label>
+        <input id="inputB" value=2 onkeyup="doSomething()">
 
+        <p>
+            <span id="valueA">1</span> + <span id="valueB">2</span> = <span id ="valueC">3</span> 입니다.
+        </p>
         <hr/>
         <hr/>
 
